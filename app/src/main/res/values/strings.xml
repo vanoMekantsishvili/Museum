@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Museum</string>
+
+    <!--Navigation Bar-->
+    <string name="SearchIcon_name">ძებნა</string>
+    <string name="ImageIcon_name">გამოფენა</string>
+    <string name="MapIcon_name">რუკა</string>
+
+    <!--Map-->
+    <string name="flour_one">1 სართული</string>
+    <string name="flour_two">2 სართული</string>
+    <string name="flour_three">3 სართული</string>
+    <string name="flour_four">4 სართული</string>
+
+</resources>

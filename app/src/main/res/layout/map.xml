@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/flour_one"
+            android:textColor="@color/white"
+            android:id="@+id/textView2" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/floor1"
+            android:layout_gravity="center"
+            android:id="@+id/firstFloor"
+            android:contentDescription="first floor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/flour_two"
+            android:textColor="@color/white"
+            android:id="@+id/textView3" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/floor2"
+            android:layout_gravity="center"
+            android:id="@+id/firstFloor12"
+            android:contentDescription="first floor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/flour_three"
+            android:textColor="@color/white"
+            android:id="@+id/textView4" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/floor3"
+            android:layout_gravity="center"
+            android:id="@+id/firstFloor34"
+            android:contentDescription="first floor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/flour_four"
+            android:textColor="@color/white"
+            android:id="@+id/textView5" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/floor4"
+            android:layout_gravity="center"
+            android:id="@+id/firstFloor56"
+            android:contentDescription="first floor" />
+    </LinearLayout>
+
+</ScrollView>

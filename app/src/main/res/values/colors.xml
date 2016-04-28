@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232730</color>
+    <color name="colorPrimaryDark">#20222a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Colors For Navigation Tab-->
+    <color name="colorTab">#9a9ca0</color>
+    <color name="bg_color">#1c1d20</color>
+
+    <!--COLORS-->
+    <color name="White">#ffffff</color>
+    <color name="Transparent">#99000000</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="4dp"
+    android:layout_marginBottom="8dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/exhibitionImage"
+        android:src="@drawable/alivehistory"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/exhibitionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/exhibition_title_padding"
+        android:textSize="@dimen/exhibition_title"
+        android:textColor="@color/White"
+        android:background="@color/Transparent"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:text="EXHIBITION"
+        android:layout_gravity="bottom"
+        />
+
+</android.support.v7.widget.CardView>
